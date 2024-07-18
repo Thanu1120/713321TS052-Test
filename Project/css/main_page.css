@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-image: url(bg.jpg);
+
+}
+.login_button{
+    
+    background-color: #c3c6cc; /* white */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+    display: inline-block;
+  vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 2vw;
+    margin: 4vw 2vw;
+    width: 80%;
+    height: 5.5vw;
+    cursor: pointer;
+    padding: 15px;
+  }
+
+  #user{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  
+  }
+
+  .login_button:hover{
+    color: black;
+    background-color: rgb(73, 212, 243);
+  }
+
+  #portal{
+    /*font-size:300%;*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-top: 3.5vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    font-size:5vw;
+  }
+  #admin{
+    position: fixed;
+    top: 50%;
+    left: 25%;
+  }
+ 
+
+.main_user_block{
+    max-width: 500px;
+    background: #dce2de;
+    padding: 10px;
+    
+    color: #cfcfd1;
+    width: 20%;
+    height: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    border-radius: 5px;
+    border: solid;
+}
